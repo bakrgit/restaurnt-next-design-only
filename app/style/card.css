@@ -1,0 +1,8 @@
+.card-container {
+    background-color:var(--card-background) !important;
+    color:var(--lang-icon) !important
+}
+
+.rate {
+    font-size: 15px !important;
+}

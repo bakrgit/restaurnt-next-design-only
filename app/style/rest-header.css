@@ -1,0 +1,24 @@
+.hero-container {
+    width: 100%;
+    height: 250px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: var(--title-color) !important;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--title-color) !important;
+}

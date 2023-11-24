@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--primary-color);
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-top: 0.5px solid white;
+    color: white;
+    padding-top:10px;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    cursor: pointer;
+}
+
+.icon-item {
+    margin:6px;
+    cursor: pointer;
+}

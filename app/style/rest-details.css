@@ -1,0 +1,100 @@
+/* layout */
+.details-container {
+    background-color:var(--card-background) !important;
+    box-shadow: 0 0 10px 0 rgba(134, 134, 134, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    height: 100%!important;
+    color:var(--title-color);
+
+}
+
+@media only screen and (max-width: 991px) {
+    .details-container {
+        width: 100%;
+    }
+}
+
+/*tabs style*/
+.tabs {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    margin-left:20px !important;
+    color: red !important;
+    text-decoration: none !important;
+
+}
+
+.tab-item {
+    margin: 0 10px !important;
+    cursor: pointer !important;
+    color:red  !important;
+}
+
+#tab-example-tab-overview{
+    color: var(--tab-color) !important;
+    font-size: 0.7rem;
+}
+#tab-example-tab-photo{
+    color: var(--tab-color) !important;
+    font-size: 0.7rem;
+}
+#tab-example-tab-menu{
+    color: var(--tab-color) !important;
+    font-size: 0.7rem;
+}
+
+.review-icon {
+    color: var(--title-color) !important;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+}
+
+/*slider style*/
+.swiper {
+    margin-top: 30px !important;
+    position: relative !important;
+}
+.swiper-slide {
+
+    height: 100% !important;
+}
+.slide-img {
+    width: 100% !important;
+}
+
+.swiper-button-next {
+    color: red !important;
+    background-color: green !important;
+
+    position: absolute !important;
+    top: 10% !important;
+    right: 200px !important;
+
+}
+
+/*menu style*/
+
+.price {
+    background-color:#e83249 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.menu-item {
+    text-align: right !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.line {
+    margin-top: 10px !important;
+    height: 2px !important;
+    background-color: #e83249 !important;
+    width: 100% !important;
+}

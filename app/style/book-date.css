@@ -1,0 +1,16 @@
+.book-container {
+    box-shadow: 0 0 10px 0 rgba(134, 134, 134, 0.2);
+    width: 350px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--card-background);
+    color: var(--title-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .book-container {
+        width: 100%;
+    }
+}
